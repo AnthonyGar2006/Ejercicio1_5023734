@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio1.MainPage">
+
+    <StackLayout Padding="40">
+
+        <Entry x:Name="Uno"
+               Placeholder=">"
+               FontSize="Medium"
+               Keyboard="Numeric"/>
+        <Entry x:Name="Dos"
+               Placeholder=">"
+               FontSize="Medium"
+               Keyboard="Numeric"/>
+        <Entry x:Name="Tres"
+               Placeholder=">"
+               FontSize="Medium"
+               Keyboard="Numeric"/>
+        <Entry x:Name="Cuatro"
+               Placeholder=">"
+               FontSize="Medium"
+               Keyboard="Numeric"/>
+        <Button Text="INVERTIR"
+                Clicked="Button_Clicked"
+                BackgroundColor="Goldenrod"/>
+        <Entry x:Name="Result"
+               Placeholder="Resultado"
+               FontSize="Medium"
+               Keyboard="Numeric"/>
+
+    </StackLayout>
+
+</ContentPage>
